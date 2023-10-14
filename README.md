@@ -13,7 +13,7 @@ Your task is to create a Go application that performs the following:
 
 ### Detailed Steps
 1. **API Data Fetching**
-	* Fetch data from the https://api.example.com/data API endpoint.
+	* Fetch data from the https://data-engineer-challenge-server-enxjgq2q4q-uc.a.run.app API endpoint.
 	* Handle paginated data fetching.
 	* Implement basic error handling mechanisms (e.g., retry once after a failed attempt).
 
