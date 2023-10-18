@@ -6,7 +6,7 @@ Welcome to our simplified Go Data Engineering Challenge! In this challenge, we s
 
 ## The Challenge
 
-Your task is to create a Go application that performs the following:
+Your task is to create a Go command line application that performs the following:
 
 1. **Fetch Data:** Retrieve data from a specified API.
 2. **Load Data:** Insert the fetched data into a SQL database.
@@ -15,7 +15,7 @@ Your task is to create a Go application that performs the following:
 ### Detailed Steps
 1. **API Data Fetching**
 	* Fetch data from the https://data-engineer-challenge-server-enxjgq2q4q-uc.a.run.app/api/v1 API endpoint. Documentation for the API can be found at  https://data-engineer-challenge-server-enxjgq2q4q-uc.a.run.app.
-	* Handle paginated data fetching.
+	* Handle paginated data fetching. The application should fetch all data from the API, regardless of the number of pages.
 	* Implement basic error handling mechanisms (e.g., retry once after a failed attempt).
 
 2. **Data Loading to SQL Database**
