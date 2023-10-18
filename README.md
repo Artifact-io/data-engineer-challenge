@@ -15,14 +15,18 @@ Your task is to create a Go command line application that performs the following
 ### Detailed Steps
 1. **API Data Fetching**
 	* Fetch data from the https://data-engineer-challenge-server-enxjgq2q4q-uc.a.run.app/api/v1 API endpoint. Documentation for the API can be found at  https://data-engineer-challenge-server-enxjgq2q4q-uc.a.run.app.
-	* Handle paginated data fetching. The application should fetch all data from the API, regardless of the number of pages.
+	* Handle paginated data fetching.
 	* Implement basic error handling mechanisms (e.g., retry once after a failed attempt).
 
 2. **Data Loading to SQL Database**
 	* Choose any SQL database technology of your preference.
 	* Transform the json data into a SQL tables appropriately.
 	* Load the fetched data into the database, handling any obvious errors gracefully (e.g., connection issues).
-	
+
+### Requirements
+* The application should be a command line tool that can be invoked from the terminal.
+* The application should fetch all data from the API, regardless of the number of pages.
+
 ### Evaluation Criteria
 * **Code Quality:** Organization, readability, and adherence to Go best practices.
 * **Error Handling:** Basic robustness against potential errors.
