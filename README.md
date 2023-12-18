@@ -25,7 +25,7 @@ Your task is to create a Go command line application that performs the following
 
 ### Requirements
 * The application should be a command line tool that can be invoked from the terminal.
-* The application should fetch all data from the API, regardless of the number of pages.
+* The application should fetch **all data** from the API, regardless of the number of pages.
 
 ### Evaluation Criteria
 * **Code Quality:** Organization, readability, and adherence to Go best practices.
